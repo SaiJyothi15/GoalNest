@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GoalNest – Daily Planner</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header class="topbar">
+      <div>
+        <h1>🌟 GoalNest</h1>
+        <p class="tagline">Plan smart, achieve more.</p>
+      </div>
+      <div class="user-actions">
+        <span class="hello">Hi, {{name}}!</span>
+        <a class="btn ghost" href="/feedback">Feedback</a>
+        <a class="btn danger" href="/logout">Logout</a>
+      </div>
+    </header>
+
+    <!-- Streak + mini graph -->
+    <section class="streak-row">
+      <div class="streak-card">
+        <div class="streak-value">
+          🔥 Streak: <span id="streakCount">0</span> days
+        </div>
+        <div class="streak-sub">
+          Longest: <span id="longestCount">0</span> days
+        </div>
+      </div>
+      <div class="chart-card">
+        <canvas id="streakChart" height="80"></canvas>
+      </div>
+    </section>
+
+    <!-- Add Task -->
+    <section class="card">
+      <h2>Add Task</h2>
+      <form id="addForm" class="task-form">
+        <input id="taskInput" type="text" placeholder="What will you do?" required>
+        <select id="catSelect" required>
+          <option value="Study">📘 Study</option>
+          <option value="Work">💼 Work</option>
+          <option value="Fitness">💪 Fitness</option>
+          <option value="Personal">🏡 Personal</option>
+        </select>
+        <input id="timeInput" type="time" required>
+        <button class="btn" type="submit">Add</button>
+      </form>
+    </section>
+
+    <!-- Task List -->
+    <section class="card">
+      <h2>Today's Tasks</h2>
+      <ul id="taskList" class="task-list"></ul>
+    </section>
+
+    <!-- Tips & Quotes -->
+    <section class="card two-col">
+      <div class="col">
+        <h3>Need a push?</h3>
+        <button class="btn info" id="tipBtn">💡 Get Tip</button>
+        <p id="tipText" class="motivation"></p>
+      </div>
+      <div class="col">
+        <h3>Quick inspiration</h3>
+        <button class="btn warn" id="quoteBtn">✨ Get Quote</button>
+        <p id="quoteText" class="motivation"></p>
+      </div>
+    </section>
+
+    <footer>
+      Made with 💖 to keep you consistent.
+    </footer>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+/* static/style.css */
+
+/* ---- Global ---- */
+:root{
+  --bg1:#ffdde1;
+  --bg2:#ee9ca7;
+  --card:#ffffff;
+  --ink:#222;
+  --muted:#666;
+  --pink:#ff6f91;
+  --orange:#ff9f68;
+  --green:#4caf50;
+  --blue:#3f51b5;
+  --shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: 'Poppins', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: linear-gradient(135deg, var(--bg1), var(--bg2)) fixed;
+  color: var(--ink);
+}
+
+/* ---- Container ---- */
+.container{
+  width: min(1000px, 92vw);
+  margin: 48px auto;
+  background:rgba(204, 204, 255, 0.6);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  padding: 28px;
+}
+
+/* ---- Topbar ---- */
+.topbar{
+  display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:12px;
+}
+h1{ margin:0; font-size: 40px; color: var(--blue); letter-spacing: .5px;}
+.tagline{ margin:4px 0 0; color: var(--muted); font-style: italic;}
+.user-actions{ display:flex; gap:10px; align-items:center; }
+.hello{ color:#444; font-weight:600; margin-right:6px }
+
+/* ---- Buttons ---- */
+.btn{
+  background: linear-gradient(45deg, var(--pink), var(--orange));
+  color:#fff; border:none; padding:10px 16px; border-radius:12px; cursor:pointer;
+  font-weight:600; box-shadow: 0 6px 14px rgba(0,0,0,.15); transition:.18s transform;
+}
+.btn:hover{ transform: translateY(-1px); }
+.btn.ghost{ background:#fff; color: var(--blue); border:2px solid var(--blue); }
+.btn.danger{ background:#ff5252; }
+.btn.info{ background:#00bcd4; }
+.btn.warn{ background:#ff9800; }
+
+/* ---- Cards ---- */
+.card{
+  background: var(--card);
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+  margin: 16px 0;
+}
+.card h2, .card h3 { margin-top:0; color:#333; }
+
+/* ---- Streak Row ---- */
+.streak-row{
+  display:grid; grid-template-columns: 1fr 1fr; gap:16px; margin: 12px 0 8px;
+}
+.streak-card{
+  background: #fff3f8;
+  border: 2px dashed #ffc5de;
+  border-radius: 16px;
+  padding: 18px;
+}
+.streak-value{ font-size: 22px; font-weight:800; color:#d81b60; }
+.streak-sub{ margin-top:6px; color:#a54b68; }
+
+/* Mini chart card */
+.chart-card{
+  background: #f3f6ff;
+  border-radius: 16px;
+  padding: 10px 12px;
+  height: 120px; /* small like leetcode feel */
+}
+.chart-card canvas{ height: 100% !important; }
+
+/* ---- Task Form ---- */
+.task-form{
+  display:grid; grid-template-columns: 3fr 1.5fr 1.2fr auto; gap:10px;
+}
+.task-form input, .task-form select{
+  border:1px solid #ddd; border-radius:12px; padding:10px 12px; font-size:15px;
+}
+
+/* ---- Task List ---- */
+.task-list{ list-style:none; margin:0; padding:0; }
+.task{ display:flex; align-items:center; justify-content:space-between; gap:12px;
+  background:#fafafa; border:1px solid #eee; padding:12px; border-radius:12px; margin:10px 0; }
+.task.done{ background:#e8f5e9; border-color:#c8e6c9; opacity:.95; }
+
+.task-left{ display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+.task-title{ font-weight:700; }
+.task-time{ color:#666; font-size: 13px; }
+
+.chip{ padding:4px 10px; border-radius:999px; font-size:12px; font-weight:700; color:#fff }
+.chip.study{ background:#29b6f6;}
+.chip.work{ background:#7e57c2;}
+.chip.fitness{ background:#43a047;}
+.chip.personal{ background:#ef6c00;}
+
+.task-actions{ display:flex; gap:8px; }
+.icon{ border:none; background:#fff; border:2px solid #ddd; width:36px; height:36px; border-radius:10px; cursor:pointer; font-weight:800; }
+.icon.success{ border-color:#66bb6a; color:#2e7d32; }
+.icon.danger{ border-color:#ef5350; color:#b71c1c; }
+
+/* ---- Two column ---- */
+.two-col{ display:grid; grid-template-columns: 1fr 1fr; gap:16px; }
+.col .motivation{ margin-top:10px; color:#333; font-weight:600; }
+
+/* ---- Footer ---- */
+footer{ text-align:center; color:#777; margin-top:20px }
+
+/* ---- Auth pages ---- */
+.auth-body{
+  min-height:100vh; display:grid; place-items:center;
+  background: radial-gradient(1000px 500px at 10% 10%, #ffe4f0, transparent),
+              radial-gradient(1000px 500px at 90% 90%, #e3f2fd, transparent),
+              linear-gradient(135deg, var(--bg1), var(--bg2));
+}
+.auth-card{
+  width: min(420px, 92vw);
+  background: rgba(255,255,255,.95);
+  border-radius: 24px; box-shadow: var(--shadow); padding: 28px; text-align:center;
+}
+.auth-card h1{ margin:0; color: var(--blue); }
+.auth-form{ display:grid; gap:10px; margin-top:12px }
+.auth-form input, .auth-form textarea{
+  border:1px solid #ddd; border-radius:12px; padding:12px 14px; font-size:15px;
+}
+.switch-link{ margin-top:10px; }
+.error{ color:#d32f2f; font-weight:700; }

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register – GoalNest</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="auth-body">
+  <div class="auth-card">
+    <h1>Create your nest 🪺</h1>
+    <p class="tagline">Tiny steps, big wins.</p>
+    <form method="POST" action="/register" class="auth-form">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <button class="btn" type="submit">Register</button>
+    </form>
+    <p class="switch-link">Already have an account? <a href="/login">Login</a></p>
+    {% if error %}<p class="error">{{ error }}</p>{% endif %}
+  </div>
+</body>
+</html>

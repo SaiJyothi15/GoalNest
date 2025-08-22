@@ -1,0 +1,54 @@
+{
+    "nagarjun@gmail.com": [],
+    "samantha@gmail.com": [],
+    "deeptishalika22@gmail.com": [],
+    "deeptishalika006@gmail.com": [
+        {
+            "id": 1755680228037,
+            "task": "project",
+            "category": "Work",
+            "time": "15:30",
+            "created_at": "2025-08-20T14:27:08.037804",
+            "completed": true,
+            "completed_at": "2025-08-20T14:27:33.358923"
+        },
+        {
+            "id": 1755680249224,
+            "task": "yoga",
+            "category": "Fitness",
+            "time": "05:30",
+            "created_at": "2025-08-20T14:27:29.224632",
+            "completed": true,
+            "completed_at": "2025-08-20T14:27:43.361364"
+        }
+    ],
+    "jyothisai@gmail.com": [
+        {
+            "id": 1755848138289,
+            "task": "project",
+            "category": "Study",
+            "time": "14:06",
+            "created_at": "2025-08-22T13:05:38.289658",
+            "completed": true,
+            "completed_at": "2025-08-22T13:05:40.275498"
+        },
+        {
+            "id": 1755848158586,
+            "task": "yoga",
+            "category": "Fitness",
+            "time": "14:06",
+            "created_at": "2025-08-22T13:05:58.586662",
+            "completed": true,
+            "completed_at": "2025-08-22T13:06:00.933675"
+        },
+        {
+            "id": 1755848181209,
+            "task": "cleaning",
+            "category": "Personal",
+            "time": "16:08",
+            "created_at": "2025-08-22T13:06:21.209486",
+            "completed": true,
+            "completed_at": "2025-08-22T13:06:24.598234"
+        }
+    ]
+}

@@ -1,0 +1,289 @@
+{
+  "jyothi@gmail.com": {
+    "name": "jyo",
+    "email": "jyothi@gmail.com",
+    "password": "1234",
+    "current_streak": 0,
+    "longest_streak": 0
+  },
+  "jyothimarisetti149@gmail.com": {
+    "name": "Sai Jyothi",
+    "email": "jyothimarisetti149@gmail.com",
+    "password": "jyo@563",
+    "current_streak": 0,
+    "longest_streak": 0
+  },
+  "saijyothimarisetti@gmail.com": {
+    "name": "Sai Jyothi",
+    "email": "saijyothimarisetti@gmail.com",
+    "password": "jyo@2005",
+    "current_streak": 0,
+    "longest_streak": 0
+  },
+  "sumathimarisetti@gmail.com": {
+    "name": "Sai Jyothi",
+    "email": "sumathimarisetti@gmail.com",
+    "password": "suma@2003",
+    "current_streak": 0,
+    "longest_streak": 0
+  },
+  "saijyothimarisetti372@gmail.com": {
+    "name": "Sai Jyothi",
+    "email": "saijyothimarisetti372@gmail.com",
+    "password": "sai@2005",
+    "current_streak": 0,
+    "longest_streak": 0
+  },
+  "jyothimarisetti1509@gmail.com": {
+    "name": "jyothi",
+    "email": "jyothimarisetti1509@gmail.com",
+    "password": "jyo@2005",
+    "current_streak": 0,
+    "longest_streak": 0
+  },
+  "jyothimarisetti123@gmail.com": {
+    "name": "Sai Jyothi",
+    "email": "jyothimarisetti123@gmail.com",
+    "password": "sai@2005",
+    "current_streak": 0,
+    "longest_streak": 0
+  },
+  "23a31a4372@pragati.ac.in": {
+    "name": "Sai Jyothi",
+    "email": "23a31a4372@pragati.ac.in",
+    "password": "1234",
+    "current_streak": 0,
+    "longest_streak": 0
+  },
+  "uma@gmai.com": {
+    "name": "uma",
+    "email": "uma@gmai.com",
+    "password": "uma",
+    "current_streak": 0,
+    "longest_streak": 0
+  },
+  "venkata@gmail.com": {
+    "name": "dee",
+    "email": "venkata@gmail.com",
+    "password": "ert",
+    "current_streak": 0,
+    "longest_streak": 0
+  },
+  "jyothi123@gmail.com": {
+    "name": "sai",
+    "email": "jyothi123@gmail.com",
+    "password": "123",
+    "current_streak": 1,
+    "longest_streak": 1,
+    "last_completed_date": "2025-08-07"
+  },
+  "deeptishalika@gmail.com": {
+    "name": "deepti",
+    "email": "deeptishalika@gmail.com",
+    "password": "deep",
+    "current_streak": 1,
+    "longest_streak": 1,
+    "last_completed_date": "2025-08-07"
+  },
+  "pativsumanjani835@gmail.com": {
+    "name": "Sai Jyothi",
+    "email": "pativsumanjani835@gmail.com",
+    "password": "uma@2005",
+    "current_streak": 1,
+    "longest_streak": 1,
+    "last_completed_date": "2025-08-07"
+  },
+  "saijyo@gmail.com": {
+    "name": "sai",
+    "email": "saijyo@gmail.com",
+    "password": "123",
+    "current_streak": 1,
+    "longest_streak": 1,
+    "last_completed_date": "2025-08-15",
+    "streak_history": [
+      {
+        "date": "2025-08-15",
+        "streak": 0
+      }
+    ],
+    "timetable": []
+  },
+  "jyothi.marisetti372@gmail.com": {
+    "name": "VENKATA RAMANA",
+    "email": "jyothi.marisetti372@gmail.com",
+    "password": "sai",
+    "current_streak": 1,
+    "longest_streak": 1,
+    "last_completed_date": "2025-08-15",
+    "streak_history": [
+      {
+        "date": "2025-08-15",
+        "streak": 1
+      }
+    ],
+    "timetable": []
+  },
+  "bhu@gmail.com": {
+    "name": "Sai Jyothi",
+    "email": "bhu@gmail.com",
+    "password": "456",
+    "current_streak": 0,
+    "longest_streak": 0,
+    "last_completed_date": "",
+    "streak_history": []
+  },
+  "sumathi@gmail.com": {
+    "name": "suma",
+    "email": "sumathi@gmail.com",
+    "password": "123",
+    "current_streak": 0,
+    "longest_streak": 0,
+    "last_completed_date": "",
+    "streak_history": []
+  },
+  "23a31a4383@pragati.ac.in": {
+    "name": "Sai Jyothi",
+    "password": "123",
+    "tasks": [
+      {
+        "task": "Review notes",
+        "category": "Study",
+        "done": true,
+        "created_at": "2025-08-18 21:27:25"
+      },
+      {
+        "task": "Review notes",
+        "category": "Study",
+        "done": true,
+        "created_at": "2025-08-18 21:27:26"
+      },
+      {
+        "task": "Inbox zero",
+        "category": "Work",
+        "done": true,
+        "created_at": "2025-08-18 21:27:27"
+      },
+      {
+        "task": "15-min walk",
+        "category": "Fitness",
+        "done": true,
+        "created_at": "2025-08-18 21:27:29"
+      },
+      {
+        "task": "hii",
+        "category": "Fitness",
+        "done": true,
+        "created_at": "2025-08-18 21:28:23"
+      },
+      {
+        "task": "Review notes",
+        "category": "Study",
+        "done": false,
+        "created_at": "2025-08-18 21:29:07"
+      },
+      {
+        "task": "Plan tomorrow",
+        "category": "General",
+        "done": false,
+        "created_at": "2025-08-18 21:29:10"
+      }
+    ],
+    "streak": 1,
+    "longest_streak": 1,
+    "last_completed_date": "2025-08-18",
+    "streak_history": [
+      {
+        "date": "2025-08-18",
+        "streak": 1
+      }
+    ]
+  },
+  "amma@gmail.com": {
+    "name": "Sai Jyothi",
+    "email": "amma@gmail.com",
+    "password": "123",
+    "current_streak": 0,
+    "longest_streak": 0,
+    "tasks_completed": 0
+  },
+  "veerasumathai@gmail.com": {
+    "name": "Sai Jyothi",
+    "email": "veerasumathai@gmail.com",
+    "password": "123",
+    "current_streak": 0,
+    "longest_streak": 0,
+    "tasks_completed": 0
+  },
+  "veerasumathi@gmail.com": {
+    "name": "veerasumathi",
+    "email": "veerasumathi@gmail.com",
+    "password": "wer",
+    "current_streak": 0,
+    "longest_streak": 0,
+    "tasks_completed": 0
+  },
+  "hello@gmail.com": {
+    "name": "hello",
+    "email": "hello@gmail.com",
+    "password_hash": "scrypt:32768:8:1$aohRpaXhPdu5ajdk$0eaa0204d62297ac49c10fe00df368050761875f51e269035fefaf93fab80534e6fb7bd79f6a3995a0604eb9780b157e43d62008064f832b6dec3b5a896765dc",
+    "current_streak": 0,
+    "longest_streak": 0,
+    "last_date": ""
+  },
+  "pawan@gmail.com": {
+    "name": "Sai Jyothi",
+    "email": "pawan@gmail.com",
+    "password_hash": "scrypt:32768:8:1$yKbDPM1XNJGoSRqZ$21b23dd1ce0c865ed1c5bfad3425a36ac5a8555a1dc514dba9bb1a95fba338aa7842e937e06afb3eb7d2f98a09a95ba61abd42a874f1dc158c79a761f87ce615",
+    "current_streak": 0,
+    "longest_streak": 0,
+    "last_date": ""
+  },
+  "pavan@gmail.com": {
+    "name": "Sai Jyothi",
+    "email": "pavan@gmail.com",
+    "password_hash": "scrypt:32768:8:1$tnIJI2cuQOMWkOXh$393f155677578a05512dd00860d40cece7aac17902e28a42f3aa652fc6aaf2c55c27c1703f4f0aded41fde4e1bd969268a055a3bdf73f3048265d9006c8543a6",
+    "current_streak": 0,
+    "longest_streak": 0,
+    "last_date": ""
+  },
+  "samantha@gmail.com": {
+    "name": "sam",
+    "email": "samantha@gmail.com",
+    "password_hash": "scrypt:32768:8:1$VgReY4i1Wehx0Xb7$b929772935264a37241ead65c95bf8707ee9a9a2d048dda849a85e822774b9d3ca4d7a33329aca69d63b31ab0b12d9a3982c45e192ecfb344106c947bb195813",
+    "current_streak": 2,
+    "longest_streak": 2,
+    "last_date": "2025-08-20"
+  },
+  "nagarjun@gmail.com": {
+    "name": "sam",
+    "email": "nagarjun@gmail.com",
+    "password_hash": "scrypt:32768:8:1$OxYpmw1YZD32t94N$77901bfc0c60623dd5ef53dd212316f4fe4a022ad110b6092cb0118c497e1f01ae1548e1a18707f07831ac82722cf0049c90fbf92d0bf6e72664c8e1ff099f9c",
+    "current_streak": 1,
+    "longest_streak": 1,
+    "last_date": "2025-08-19"
+  },
+  "deeptishalika22@gmail.com": {
+    "name": "s. deepti",
+    "email": "deeptishalika22@gmail.com",
+    "password_hash": "scrypt:32768:8:1$C4eJWtZmOIHP269k$91fe4348c5ac7c1ee981d3752803945fd8a4c0d82822827123ba5ffe0bef698abbb123f59342c3dc0ab251a65ec9d18bf30a617b3101f5e6d775ad0a5897a796",
+    "current_streak": 1,
+    "longest_streak": 1,
+    "last_date": "2025-08-20"
+  },
+  "deeptishalika006@gmail.com": {
+    "name": "s.deepti",
+    "email": "deeptishalika006@gmail.com",
+    "password_hash": "scrypt:32768:8:1$ANl2f0Gu3QsLr68p$55c8ec5ad54fdfb3872afac953586344254dcde1358b77700e4f587d2f3f82177f40404fac0a819a656abbc4ee8197c97f331eba6e5878b6fe8ee6491c20eacf",
+    "current_streak": 1,
+    "longest_streak": 1,
+    "last_date": "2025-08-20"
+  },
+  "jyothisai@gmail.com": {
+    "name": "Sai Jyothi",
+    "email": "jyothisai@gmail.com",
+    "password_hash": "scrypt:32768:8:1$J3iGe771x45LgaTX$adca5d5318914c50b1e2a19984b9723b3ae30603e8d2c55adaeadc3d12695aeec354f828f409f4baaab231f930c41095dc8876394b6a4713452af7f6ac1420a1",
+    "current_streak": 1,
+    "longest_streak": 1,
+    "last_date": "2025-08-22"
+  }
+}
